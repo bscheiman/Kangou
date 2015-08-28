@@ -10,5 +10,8 @@ namespace Kangou.Objects {
 
         [JsonProperty("lng")]
         public double Longitude { get; set; }
+
+        internal Location() {
+        }
     }
 }

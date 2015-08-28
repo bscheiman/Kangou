@@ -41,5 +41,8 @@ namespace Kangou.Objects {
 
         [JsonProperty("pick_up")]
         public KangouAddress PickUp { get; set; }
+
+        internal Quote() {
+        }
     }
 }

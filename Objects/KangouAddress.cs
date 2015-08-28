@@ -10,5 +10,8 @@ namespace Kangou.Objects {
 
         [JsonProperty("location")]
         public Location Location { get; set; }
+
+        internal KangouAddress() {
+        }
     }
 }

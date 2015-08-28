@@ -10,5 +10,8 @@ namespace Kangou.Objects {
 
         [JsonProperty("value")]
         public int Value { get; set; }
+
+        internal Distance() {
+        }
     }
 }

@@ -16,5 +16,8 @@ namespace Kangou.Objects {
 
         [JsonProperty("status")]
         public string Status { get; set; }
+
+        internal OrderInfo() {
+        }
     }
 }
